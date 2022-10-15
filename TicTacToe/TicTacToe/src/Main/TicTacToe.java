@@ -82,7 +82,7 @@ public class TicTacToe implements ActionListener{
 
 
         try {
-            Thread.sleep(3000);
+            Thread.sleep(1000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
