@@ -1,4 +1,4 @@
-public class ComputerGuesser implements IGuesser
+public class ComputerGuesserRandom implements IGuesser
 {
 	private int min;
 	private int max;
@@ -18,7 +18,11 @@ public class ComputerGuesser implements IGuesser
 
 	public int makeGuess()
 	{
-		return (min + max) / 2;
+		//random generator, min value is inclusive while max value is exclusive
+		return (int) (Math.random()*(max-min+1)+min);
+		//return (min + max) / 2;
+		//
+
 	}
 
 	public void guessFeedback(Answer answer)
