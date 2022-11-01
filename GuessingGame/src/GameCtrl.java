@@ -79,6 +79,9 @@ public class GameCtrl
 		IGuesser guesser = chooseType("Guesser") == 1 ? new HumanGuesser() : new ComputerGuesserRandom();
 		GameCtrl gc = new GameCtrl(0, 100);
 		gc.runGame(thinker, guesser);
+
+		//example/exercise related methods, don't mind them
+		//github practice related
 		new NewFeature();
 		new MainFeature();
 		
