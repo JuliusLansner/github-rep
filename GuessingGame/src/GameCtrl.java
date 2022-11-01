@@ -84,6 +84,9 @@ public class GameCtrl
 		//github practice related
 		new NewFeature();
 		new MainFeature();
+
+		
+
 		
 	}
 }
